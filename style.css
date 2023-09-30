@@ -5,6 +5,9 @@ body {
   font-size: 130px;
   font-family: 'Klee One', cursive;
   background-color: #fef6dd;
+  color: rgb(107, 107, 43);
+  text-shadow: #2f260c;
+  animation: jolie 6s infinite alternate-reverse;
 }
 span {
   animation: fadein 6s alternate;
@@ -12,4 +15,8 @@ span {
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+@keyframes jolie{
+    from { background-color: #fef6dd;}
+    to { background-color: #fbe5a3;}
 }
