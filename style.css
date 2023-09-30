@@ -1,0 +1,13 @@
+body {
+  padding-top: 5%;
+  font-size: 130px;
+  font-family: 'Klee One', cursive;
+  background-color: #fef6dd;
+}
+span {
+  animation: fadein 6s alternate;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
